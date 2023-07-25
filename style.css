@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    color: #272727;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 900;
+}
+p{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+button{
+    padding: 20px 43px;
+    background-color: #e55473;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+section{
+    width: 1920px;
+}
+#hero{
+ 
+    height: 800px;
+    background-color: #E5547310;
+    
+}
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+.hero-container h1{
+    font-size: 80px;
+    font-weight: 900;
+}
+.hero-container p{
+    margin: 32px 0px;
+}
+#our-featured-flowers{
+    padding: 178px 0px 128px 0px;
+}
+.featured-container{
+    text-align: center;
+    width: 1440px;
+    margin: auto;
+}
+
+
+.featured-content{
+    justify-content: center;
+}
+.featured-content h1{
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+.featured-content p{
+    margin: 24px 0px 48px 0px;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+}
+.item-box-container{
+    width: 464px;
+    height: 605px;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+}
+
+.item-1{
+    background-color: #A7216215;
+}
+.item-2{
+    background-color: #0597A015;
+}
+.item-3{
+    background-color: #477D1115;
+}
+.item-box-container.item-1 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.item-box-container.item-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-box-container.item-3 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.item-title{
+    font-size: 24px;
+    font-weight: 800;
+    text-decoration: underline;
+    line-height: 35px;
+    margin-top: 32px;
+}
+
+.highlight-container{
+    margin-top: 128px;
+    padding: 86px 0px;
+    border-radius: 8px;
+    background-color: #27272705;
+    text-align: center;
+
+}
+.highlight-item-box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.highlight-title h3{
+    margin-top: 24px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+#sign-up{
+    height: 620px;
+    background-color: #E5547310;
+}
+.sign-up-container{
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: center;
+    margin: auto;
+    padding: 100px 0px;
+}
+.sign-up-content{
+    text-align: center;
+}
+.sign-up-content p{
+margin: 24px 0px 32px 0px;
+}
+.intagram-feed-heading{
+    text-align: center;
+}
+#intagram-feed{
+    padding: 128px 0px;
+}
+.intagram-feed-container{
+    width: 1440px;
+    margin: auto;
+}
+.intagram-feed-item-container{
+    display: flex;
+    justify-content: space-between;
+}
+.intagram-feed-heading p{
+    margin: 24px 0px 48px 0px;
+}
+.subscribe-container{
+    margin-top: 128px;
+    padding: 120px 0px;
+    background-image: url(./images/Rectangle-9.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+
+}
+.subscribe-content-title p{
+    padding: 16px 0px 48px 0px;
+}
+.subscribe-content-container{
+    text-align: center;
+}
+.subscribe-from{
+    display: flex;
+    justify-content: center;
+}
+.subscribe-from input[type="email"]{
+    padding: 24px 20px;
+    width: 700px;
+    border: none;
+    border-radius: 8px;
+}
+.subscribe-from input::placeholder{
+    color: #27272730;
+    font-size: 16px;
+    font-weight: 400;
+}
+input:focus{
+    border: none;
+}
+.sub-btn{
+    width: 150px;
+    height: 64px;
+    margin-left: 16px;
+    padding: 0;
+}
+#footer{
+    width: 1920px;
+    padding: 128px 0px;
+    background-color: #111010;
+    text-align: center;
+}
+.footer-logo h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 24px;
+}
+.footer-logo span{
+    color: #e55473;
+}
+.footer-content p{
+    color: #ffffff90;
+    margin-bottom: 32px;
+}
+.footer-content span{
+    font-size: 16px;
+    line-height: 0;
+    color: #ffffff40;
+}
